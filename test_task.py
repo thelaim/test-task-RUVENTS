@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 from datetime import datetime
 import calendar
 
-wb = load_workbook('C:/Users/home/Downloads/ee/task_support.xlsx')
+wb = load_workbook('task_support.xlsx')
 sheet_ranges = wb['Tasks']
 
 num = list(range(3, 1003))
